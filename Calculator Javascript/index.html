@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="calcBody">
+                <div class="myCalc">
+                    <h2 class="heading1">My Calculator</h2>
+                </div>
+                <div class="calcArea">
+                    <div class="calcDelete" onclick="clickClear()">
+                        <span>C</span>
+                    </div>
+                    <div class="calcNums">
+                        <h1 id="calcEquation"></h1>
+                    </div>
+                    <div class="calcNums2">
+                        <h1 id="calcOutput"></h1>
+                    </div>
+                                  
+                </div>
+
+                <div class="calcConsole">
+                    <div class="gridContainer">
+                        <div class="grid-item" onclick="clickNum1()"><span>1</span></div>
+                        <div class="grid-item" onclick="clickNum2()"><span>2</span></div>
+                        <div class="grid-item" onclick="clickNum3()"><span>3</span></div>
+                        <div class="grid-item" onclick="clickNum4()"><span>4</span></div>
+                        <div class="grid-item" onclick="clickNum5()"><span>5</span></div>
+                        <div class="grid-item" onclick="clickNum6()"><span>6</span></div>
+                        <div class="grid-item" onclick="clickNum7()"><span>7</span></div>
+                        <div class="grid-item" onclick="clickNum8()"><span>8</span></div>
+                        <div class="grid-item" onclick="clickNum9()"><span>9</span></div>
+                    </div>
+                    <div class="zero" onclick="clickNum0()">
+                        <div class="grid-item"><span>0</span></div>
+                    </div>
+                    <div class="operations">
+                        <div class="operation1" onclick="clickPlus()">
+                           <span>+</span>
+                        </div>
+                        <div class="operation1" onclick="clickMinus()">
+                            <span>-</span>
+                        </div>
+                        <div class="operation1" onclick="clickMultiply()">
+                            <span>x</span>
+                        </div>
+                        <div class="operation1" onclick="clickDivide()">
+                            <span>/</span>
+                        </div>
+                    </div>
+                    <div class="equals" onclick="equal()"><span>=</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
